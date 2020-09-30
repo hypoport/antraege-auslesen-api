@@ -9,12 +9,12 @@ Die API erlaubt den Zugriff auf Anträge für die Kreditentscheidung als Produkt
 
 ## Authentifizierung
 
+Zur Authentifizierung nutzt Europace [OAuth2](https://oauth.net/2/), um Zugang zu den APIs zu ermöglichen. Die Beschreibung unserer Authorization-API findest du [hier](https://github.com/europace/authorization-api).
+
 > #### Hinweis
 >
 > Bis Juli 2021 ist die Authentifizierung noch über API-Key möglich. Danach wird die Anträge-API nur noch über OAuth2 ansprechbar sein.
 > Wir empfehlen neuen Partnern daher, sich mittels OAuth2 zu verbinden. Bei Fragen wende dich bitte an [devsupport@europace2.de](mailto:devsupport@europace2.de).
-
-Zur Authentifizierung nutzt Europace [OAuth2](https://oauth.net/2/), um Zugang zu den APIs zu ermöglichen. Die Beschreibung unserer Authorization-API findest du [hier](https://github.com/europace/authorization-api).
 
 Der OAuth2-Client benötigt folgende Scopes, um die API verwenden zu können:
 
